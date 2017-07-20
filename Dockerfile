@@ -19,7 +19,7 @@ RUN cd $HOME && \
 ENV LAUNCH_JBOSS_IN_BACKGROUND true
 
 # Test folder
-RUN mkdir -p $HOME/test
+# RUN mkdir -p $HOME/test
 
 # Expose the ports we're interested in
 EXPOSE 8080 9990
